@@ -5,7 +5,7 @@ renderer.setSize(window.innerWidth, window.innerHeight)
 document.body.appendChild(renderer.domElement)
 
 const geometry = new THREE.BoxGeometry()
-const material = new THREE.MeshBasicMaterial({material: 0x0000ff})
+const material = new THREE.MeshBasicMaterial({material: 0xffffff})
 const cube = new THREE.Mesh(geometry, material)
 scene.add(cube)
 
